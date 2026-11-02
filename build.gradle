@@ -1,0 +1,53 @@
+buildscript {
+    repositories {
+        maven { url = "https://files.minecraftforge.net/maven" }
+        maven { url = "https://repo.maven.apache.org/maven2" }
+    }
+    dependencies {
+        classpath "net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT"
+    }
+}
+
+apply plugin: "net.minecraftforge.gradle.forge"
+
+version = "1.0.0"
+group = "aaaa0ggmc"
+archivesBaseName = "morphext_patch_modpack"
+
+sourceCompatibility = targetCompatibility = "1.8"
+compileJava.options.encoding = "UTF-8"
+
+minecraft {
+    version = "1.12.2-14.23.5.2847"
+    mappings = "stable_39"
+    runDir = "run"
+}
+
+repositories {
+    maven { url = "https://repo.maven.apache.org/maven2" }
+}
+
+dependencies {
+    compile files("libs/mclib-2.4.3-1.12.2.jar")
+    compile files("libs/metamorph-1.4-1.12.2.jar")
+    compile files("libs/morph-extension-1.0.0.jar")
+    compile files("libs/BiomesOPlenty-1.12.2-7.0.1.2445-universal.jar")
+    compile files("libs/dawnoftime_builder_edition-1.12.2-1.0.7.jar")
+}
+
+jar {
+    finalizedBy 'reobfJar'
+}
+
+processResources {
+    inputs.property "version", project.version
+    inputs.property "mcversion", "1.12.2"
+
+    from(sourceSets.main.resources.srcDirs) {
+        include "mcmod.info"
+        expand "version": project.version, "mcversion": "1.12.2"
+    }
+    from(sourceSets.main.resources.srcDirs) {
+        exclude "mcmod.info"
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "factions": {
+    "draconic": {},
+    "insect": {
+      "parent": "arthropod"
+    }
+  },
+  "entity_mappings": {
+    "biomesoplenty:wasp": ["insect", "arthropod"],
+    "biomesoplenty.wasp": ["insect", "arthropod"],
+    "dawnoftimebuilder:japanese_dragon": ["draconic"],
+    "dawnoftimebuilder.japanese_dragon": ["draconic"],
+    "dawnoftimebuilder:silkmoth": ["insect", "animal"],
+    "dawnoftimebuilder.silkmoth": ["insect", "animal"]
+  },
+  "relations": [
+    { "from": "draconic", "to": "draconic", "relation": "RELATIVE", "symmetric": true },
+    { "from": "insect", "to": "insect", "relation": "RELATIVE", "symmetric": true }
+  ]
+}

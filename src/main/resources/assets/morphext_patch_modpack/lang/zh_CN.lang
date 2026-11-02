@@ -1,0 +1,34 @@
+# Morph Extension - Modpack Patch Lang (zh_CN)
+morphext.modpack.loaded=形态扩展整合包杂项补丁加载成功。
+
+# Biomes O' Plenty Wasp
+morphext.metamorph.action.bop_wasp_stinger_dash=剧毒尾针俯冲
+morphext.metamorph.desc.bop_wasp_stinger_dash=振翅高速俯冲突刺，以剧毒尾针贯穿身前目标，造成 7.5 点物理伤害并施加 6 秒剧毒 II 与反胃效果！
+morphext.metamorph.action.bop_wasp_poison_dart=剧毒尾针射击
+morphext.metamorph.desc.bop_wasp_poison_dart=朝准星视线方向精准射出一枚淬毒尾针飞弹，命中造成 5 点伤害并施加 5 秒剧毒 II 与迟缓 II！
+morphext.metamorph.action.bop_wasp_swarm_rally=蜂群集结
+morphext.metamorph.desc.bop_wasp_swarm_rally=释放蜂巢召集信息素：自身获得 6 秒速度 II 与力量 I，8 格内队友共享速度 I 与力量 I，敌人被蜂群标记发光 5 秒无处可逃！（冷却 20 秒）
+morphext.metamorph.action.bop_wasp_hive_venom=毒巢蜂雾
+morphext.metamorph.desc.bop_wasp_hive_venom=向目标区域喷吐一团毒巢蜂雾，3.5 格内敌人承受 2.5 点毒伤、4 秒剧毒 II 与 3 秒反胃！（冷却 15 秒）
+
+# Dawn of Time Japanese Dragon
+morphext.metamorph.action.dot_dragon_ascend=腾云驾雾
+morphext.metamorph.desc.dot_dragon_ascend=召唤神圣祥云腾空飞升，获得 6 秒极速与抗性提升，在祥云环绕中御风翱翔！
+morphext.metamorph.action.dot_dragon_breath_roar=龙神吐息与威慑龙啸
+morphext.metamorph.desc.dot_dragon_breath_roar=爆发震撼天地的真龙怒啸，喷薄浩瀚龙炎吐息，身前 10 格锥形范围内敌人承受 10 点混合伤害、强力击退并附加 6 秒引燃与虚弱 II、迟缓 II 威慑诅咒！
+morphext.metamorph.action.dot_dragon_majesty=真龙威仪
+morphext.metamorph.desc.dot_dragon_majesty=爆发真龙威压：16 格内敌人承受 2 点威压冲击、6 秒虚弱 II 与迟缓 I 并被震退，队友获得 6 秒抗性提升庇护！（冷却 22 秒）
+morphext.ability.dot_dragon_tide_grace.name=龙神司水
+morphext.ability.dot_dragon_tide_grace.desc=龙神司水：龙神司掌江海，自如水下呼吸；身处水中时获得速度 I 并泛起浪花气泡。
+morphext.metamorph.desc.dot_dragon_tide_grace=龙神司水：恒常水下呼吸，水中获得速度 I。
+
+# Dawn of Time Silkmoth
+morphext.metamorph.action.dot_silkmoth_thread_spit=蚕丝喷吐
+morphext.metamorph.desc.dot_silkmoth_thread_spit=喷吐出极具黏性的柔韧蚕丝，缠绕束缚正前方 8 格内目标，造成 4 点伤害并施加 6 秒迟缓 IV 与虚弱 II 强力禁锢！
+morphext.metamorph.action.dot_silkmoth_powder_cloud=致盲磷粉云
+morphext.metamorph.desc.dot_silkmoth_powder_cloud=剧烈振翅在周身 6 格弥漫扩散耀眼的致盲鳞粉迷雾，使周围所有敌怪陷入 6 秒致盲与发光失序状态，自身获得 4 秒隐身与加速安然脱险！
+morphext.metamorph.action.dot_silkmoth_cocoon=作茧自护
+morphext.metamorph.desc.dot_silkmoth_cocoon=吐丝结茧裹身 4 秒，获得抗性提升 II 与再生 II，代价是迟缓 II 与挖掘疲劳（茧中蛰伏）！（冷却 20 秒）
+morphext.ability.dot_silkmoth_phototaxis.name=蚕蛾趋光
+morphext.ability.dot_silkmoth_phototaxis.desc=蚕蛾趋光：靠近强光（光照 ≥ 12）时欣然加速（速度 I）；黑夜或弱光（光照 ≤ 7）中获得夜视与速度 I；白昼直射日光下轻微虚弱 I。
+morphext.metamorph.desc.dot_silkmoth_phototaxis=蚕蛾趋光：近强光获加速；夜间获夜视与加速；日晒轻微虚弱。

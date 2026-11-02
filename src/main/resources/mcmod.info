@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "morphext_patch_modpack",
+    "name": "Morph Extension - Modpack Patch",
+    "description": "Houses miscellaneous mob adaptations, bone bindings, and abilities for small-scale mods in shaping_the_world.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["aaaa0ggmc"],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": ["aaaa0ggmc_morph_extension", "metamorph"]
+  }
+]

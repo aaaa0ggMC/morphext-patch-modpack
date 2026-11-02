@@ -1,0 +1,34 @@
+# Morph Extension - Modpack Patch Lang (en_US)
+morphext.modpack.loaded=Morph Extension Modpack Patch loaded successfully.
+
+# Biomes O' Plenty Wasp
+morphext.metamorph.action.bop_wasp_stinger_dash=Wasp Stinger Dash
+morphext.metamorph.desc.bop_wasp_stinger_dash=Dive forward with fluttering wings, impaling targets with venomous stinger for 7.5 damage, Poison II and Nausea!
+morphext.metamorph.action.bop_wasp_poison_dart=Wasp Poison Dart
+morphext.metamorph.desc.bop_wasp_poison_dart=Shoot a venomous stinger dart towards crosshair, dealing 5 damage and applying Poison II and Slowness II for 5s!
+morphext.metamorph.action.bop_wasp_swarm_rally=Wasp Swarm Rally
+morphext.metamorph.desc.bop_wasp_swarm_rally=Release hive rally pheromones: gain Speed II and Strength I for 6s, allies within 8 blocks share Speed I and Strength I, and enemies are marked with Glowing for 5s! (20s cooldown)
+morphext.metamorph.action.bop_wasp_hive_venom=Wasp Hive Venom
+morphext.metamorph.desc.bop_wasp_hive_venom=Spit a choking cloud of hive venom at the target area, dealing 2.5 damage plus Poison II and Nausea to enemies within 3.5 blocks! (15s cooldown)
+
+# Dawn of Time Japanese Dragon
+morphext.metamorph.action.dot_dragon_ascend=Dragon Cloud Ascend
+morphext.metamorph.desc.dot_dragon_ascend=Summon mystic clouds and soar into the sky, gaining Speed, Resistance and Jump Boost for 6s surrounded by holy mist!
+morphext.metamorph.action.dot_dragon_breath_roar=Dragon Breath & Roar
+morphext.metamorph.desc.dot_dragon_breath_roar=Unleash an earth-shattering divine dragon roar and fiery breath, dealing 10 damage, burning, knocking back, and afflicting enemies in a 10-block cone with Weakness II and Slowness II!
+morphext.metamorph.action.dot_dragon_majesty=Dragon Majesty
+morphext.metamorph.desc.dot_dragon_majesty=Unleash true dragon awe: enemies within 16 blocks take 2 pressure damage, Weakness II and Slowness I for 6s and are blasted back, while allies gain Resistance I! (22s cooldown)
+morphext.ability.dot_dragon_tide_grace.name=Dragon Tide Grace
+morphext.ability.dot_dragon_tide_grace.desc=Dragon Tide Grace: The dragon god of the tides breathes water freely, and while swimming gains Speed I amid bubbling wakes.
+morphext.metamorph.desc.dot_dragon_tide_grace=Dragon Tide Grace: Permanent Water Breathing, plus Speed I while in water.
+
+# Dawn of Time Silkmoth
+morphext.metamorph.action.dot_silkmoth_thread_spit=Silkmoth Thread Spit
+morphext.metamorph.desc.dot_silkmoth_thread_spit=Spit a stream of extremely sticky silk up to 8 blocks, dealing 4 damage and trapping targets with Slowness IV and Weakness II for 6s!
+morphext.metamorph.action.dot_silkmoth_powder_cloud=Silkmoth Powder Cloud
+morphext.metamorph.desc.dot_silkmoth_powder_cloud=Vigorously flutter wings to disperse a shimmering cloud of lepidopteran powder in a 6-block radius, blinding and confusing enemies for 6s while granting yourself Invisibility and Speed!
+morphext.metamorph.action.dot_silkmoth_cocoon=Silkmoth Cocoon
+morphext.metamorph.desc.dot_silkmoth_cocoon=Spin a protective silk cocoon around yourself for 4s, gaining Resistance II and Regeneration II at the cost of Slowness II and Mining Fatigue! (20s cooldown)
+morphext.ability.dot_silkmoth_phototaxis.name=Silkmoth Phototaxis
+morphext.ability.dot_silkmoth_phototaxis.desc=Silkmoth Phototaxis: Drawn to bright light (level >= 12) with Speed I; at night or in darkness (level <= 7) gain Night Vision and Speed I; direct daylight inflicts mild Weakness I.
+morphext.metamorph.desc.dot_silkmoth_phototaxis=Silkmoth Phototaxis: Speed I near bright light; Night Vision and Speed I at night; mild Weakness in direct sunlight.

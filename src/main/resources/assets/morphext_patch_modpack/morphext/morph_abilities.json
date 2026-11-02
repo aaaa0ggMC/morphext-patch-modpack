@@ -1,0 +1,60 @@
+{
+  "biomesoplenty:wasp": {
+    "hands": true,
+    "rightHand": "Right_Leg_Front",
+    "leftHand": "Left_Leg_Front",
+    "abilities": ["fly", "prevent_fall", "faction_arthropod", "faction_nether"],
+    "actions": ["bop_wasp_stinger_dash", "bop_wasp_poison_dart", "bop_wasp_swarm_rally", "bop_wasp_hive_venom"],
+    "damageImmunities": ["fall"],
+    "attackDamage": 2.5,
+    "speed": 0.115
+  },
+  "biomesoplenty.wasp": {
+    "hands": true,
+    "rightHand": "Right_Leg_Front",
+    "leftHand": "Left_Leg_Front",
+    "abilities": ["fly", "prevent_fall", "faction_arthropod", "faction_nether"],
+    "actions": ["bop_wasp_stinger_dash", "bop_wasp_poison_dart", "bop_wasp_swarm_rally", "bop_wasp_hive_venom"],
+    "damageImmunities": ["fall"],
+    "attackDamage": 2.5,
+    "speed": 0.115
+  },
+  "dawnoftimebuilder:japanese_dragon": {
+    "hands": true,
+    "rightHand": "HarmR",
+    "leftHand": "HarmL",
+    "abilities": ["fly", "prevent_fall", "fire_proof", "faction_giant_relative", "dot_dragon_tide_grace"],
+    "actions": ["dot_dragon_ascend", "dot_dragon_breath_roar", "dot_dragon_majesty"],
+    "damageImmunities": ["fall", "inFire", "onFire", "lava", "hotFloor"],
+    "attackDamage": 6.0,
+    "speed": 0.12
+  },
+  "dawnoftime:japanese_dragon": {
+    "hands": true,
+    "rightHand": "HarmR",
+    "leftHand": "HarmL",
+    "abilities": ["fly", "prevent_fall", "fire_proof", "faction_giant_relative", "dot_dragon_tide_grace"],
+    "actions": ["dot_dragon_ascend", "dot_dragon_breath_roar", "dot_dragon_majesty"],
+    "damageImmunities": ["fall", "inFire", "onFire", "lava", "hotFloor"],
+    "attackDamage": 6.0,
+    "speed": 0.12
+  },
+  "dawnoftimebuilder:silkmoth": {
+    "hands": true,
+    "rightHand": "wingRight",
+    "leftHand": "wingLeft",
+    "abilities": ["fly", "prevent_fall", "faction_arthropod", "dot_silkmoth_phototaxis"],
+    "actions": ["dot_silkmoth_thread_spit", "dot_silkmoth_powder_cloud", "dot_silkmoth_cocoon"],
+    "damageImmunities": ["fall"],
+    "speed": 0.1
+  },
+  "dawnoftime:silkmoth": {
+    "hands": true,
+    "rightHand": "wingRight",
+    "leftHand": "wingLeft",
+    "abilities": ["fly", "prevent_fall", "faction_arthropod", "dot_silkmoth_phototaxis"],
+    "actions": ["dot_silkmoth_thread_spit", "dot_silkmoth_powder_cloud", "dot_silkmoth_cocoon"],
+    "damageImmunities": ["fall"],
+    "speed": 0.1
+  }
+}
