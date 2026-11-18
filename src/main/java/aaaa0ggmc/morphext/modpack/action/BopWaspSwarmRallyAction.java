@@ -74,10 +74,10 @@ public class BopWaspSwarmRallyAction implements IAction, ICooldownAction {
         List<EntityLivingBase> nearby = world.getEntitiesWithinAABB(EntityLivingBase.class, aabb,
                 e -> e != null && e.isEntityAlive() && !e.equals(entity));
         for (EntityLivingBase target : nearby) {
-            if (target instanceof IMob) {
+            if (aaaa0ggmc.morphext.faction.FactionEnmity.isValidTargetFor(entity, target)) {
                 // 蜂群标记：发光 5 秒
                 target.addPotionEffect(new PotionEffect(MobEffects.GLOWING, 100, 0, false, true));
-            } else if (target.isOnSameTeam(entity) || target instanceof EntityPlayer) {
+            } else if (aaaa0ggmc.morphext.faction.FactionEnmity.isAlly(entity, target) || target.isOnSameTeam(entity)) {
                 // 队友共享蜂群之力
                 target.addPotionEffect(new PotionEffect(MobEffects.SPEED, 120, 0, false, true));
                 target.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 120, 0, false, true));

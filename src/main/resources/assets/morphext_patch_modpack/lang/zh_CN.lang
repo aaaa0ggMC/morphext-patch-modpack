@@ -32,3 +32,7 @@ morphext.metamorph.desc.dot_silkmoth_cocoon=吐丝结茧裹身 4 秒，获得抗
 morphext.ability.dot_silkmoth_phototaxis.name=蚕蛾趋光
 morphext.ability.dot_silkmoth_phototaxis.desc=蚕蛾趋光：靠近强光（光照 ≥ 12）时欣然加速（速度 I）；黑夜或弱光（光照 ≤ 7）中获得夜视与速度 I；白昼直射日光下轻微虚弱 I。
 morphext.metamorph.desc.dot_silkmoth_phototaxis=蚕蛾趋光：近强光获加速；夜间获夜视与加速；日晒轻微虚弱。
+
+# Migrated from morph-extension core
+morph.category.biomesoplenty=超多生物群系
+morph.category.dawnoftimebuilder=黎明之纪

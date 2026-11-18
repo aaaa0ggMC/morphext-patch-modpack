@@ -32,3 +32,7 @@ morphext.metamorph.desc.dot_silkmoth_cocoon=Spin a protective silk cocoon around
 morphext.ability.dot_silkmoth_phototaxis.name=Silkmoth Phototaxis
 morphext.ability.dot_silkmoth_phototaxis.desc=Silkmoth Phototaxis: Drawn to bright light (level >= 12) with Speed I; at night or in darkness (level <= 7) gain Night Vision and Speed I; direct daylight inflicts mild Weakness I.
 morphext.metamorph.desc.dot_silkmoth_phototaxis=Silkmoth Phototaxis: Speed I near bright light; Night Vision and Speed I at night; mild Weakness in direct sunlight.
+
+# Migrated from morph-extension core
+morph.category.biomesoplenty=Biomes O' Plenty
+morph.category.dawnoftimebuilder=Dawn of Time

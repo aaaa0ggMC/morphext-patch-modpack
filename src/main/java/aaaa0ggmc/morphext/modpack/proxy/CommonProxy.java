@@ -16,12 +16,12 @@ public class CommonProxy {
 
     public void preInit(FMLPreInitializationEvent event) {
         registerActions();
-        registerPassives();
+        if (net.minecraftforge.fml.common.Loader.isModLoaded("metamorph")) {
+            aaaa0ggmc.morphext.modpack.MetamorphMaxOverrides.register();
+        }
     }
 
     public void init(FMLInitializationEvent event) {
-        SafeMobActAction.registerAdapter(new ModpackMobActAdapter());
-        LOGGER.info("[morphext-modpack] ModpackMobActAdapter registered successfully.");
     }
 
     public void postInit(FMLPostInitializationEvent event) {}
@@ -39,25 +39,6 @@ public class CommonProxy {
         register("dot_silkmoth_cocoon", new DotSilkmothCocoonAction());
 
         LOGGER.info("[morphext-modpack] Registered 10 modpack mob actions into MorphManager");
-    }
-
-    private void registerPassives() {
-        try {
-            // 被动能力注册 (兼容 MorphExtension AbilityRegistry 与 Metamorph 注册表)
-            aaaa0ggmc.morphext.modpack.passive.DotDragonTideGracePassive tideGrace =
-                    new aaaa0ggmc.morphext.modpack.passive.DotDragonTideGracePassive();
-            aaaa0ggmc.morphext.ability.AbilityRegistry.register(tideGrace);
-            MorphManager.INSTANCE.abilities.put(tideGrace.getId(), tideGrace);
-
-            aaaa0ggmc.morphext.modpack.passive.DotSilkmothPhototaxisPassive phototaxis =
-                    new aaaa0ggmc.morphext.modpack.passive.DotSilkmothPhototaxisPassive();
-            aaaa0ggmc.morphext.ability.AbilityRegistry.register(phototaxis);
-            MorphManager.INSTANCE.abilities.put(phototaxis.getId(), phototaxis);
-
-            LOGGER.info("[morphext-modpack] Registered modpack passive abilities into AbilityRegistry.");
-        } catch (Throwable t) {
-            LOGGER.warn("[morphext-modpack] Failed to register passive abilities", t);
-        }
     }
 
     private void register(String id, IAction action) {

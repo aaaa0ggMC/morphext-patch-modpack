@@ -74,7 +74,7 @@ public class BopWaspStingerDashAction implements IAction, ICooldownAction {
 
         AxisAlignedBB aabb = entity.getEntityBoundingBox().grow(3.0D, 1.5D, 3.0D);
         List<EntityLivingBase> targets = world.getEntitiesWithinAABB(EntityLivingBase.class, aabb,
-                e -> e != null && e.isEntityAlive() && !e.equals(entity));
+                e -> e != null && e.isEntityAlive() && aaaa0ggmc.morphext.faction.FactionEnmity.isValidTargetFor(entity, e));
 
         DamageSource src = entity instanceof EntityPlayer ?
                 DamageSource.causePlayerDamage((EntityPlayer) entity) :

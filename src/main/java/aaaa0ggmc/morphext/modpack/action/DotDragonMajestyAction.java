@@ -79,13 +79,13 @@ public class DotDragonMajestyAction implements IAction, ICooldownAction {
 
         for (EntityLivingBase target : nearby) {
             Vec3d toTarget = new Vec3d(target.posX - entity.posX, 0, target.posZ - entity.posZ).normalize();
-            if (target instanceof IMob) {
+            if (aaaa0ggmc.morphext.faction.FactionEnmity.isValidTargetFor(entity, target)) {
                 // 威压震慑：物理威压冲击 + 虚弱 + 迟缓 + 重震退
                 target.attackEntityFrom(src, 2.0F);
                 target.addPotionEffect(new PotionEffect(MobEffects.WEAKNESS, 120, 1, false, true));
                 target.addPotionEffect(new PotionEffect(MobEffects.SLOWNESS, 100, 0, false, true));
                 target.knockBack(entity, 1.2F, -toTarget.x, -toTarget.z);
-            } else if (target.isOnSameTeam(entity) || target instanceof EntityPlayer) {
+            } else if (aaaa0ggmc.morphext.faction.FactionEnmity.isAlly(entity, target) || target.isOnSameTeam(entity)) {
                 // 龙威庇护：队友抗性提升
                 target.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 120, 0, false, true));
             }

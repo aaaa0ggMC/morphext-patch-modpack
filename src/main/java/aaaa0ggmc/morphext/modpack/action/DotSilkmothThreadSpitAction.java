@@ -66,7 +66,7 @@ public class DotSilkmothThreadSpitAction implements IAction, ICooldownAction {
         double range = 8.0D;
         AxisAlignedBB aabb = entity.getEntityBoundingBox().grow(range, 2.0D, range);
         List<EntityLivingBase> targets = world.getEntitiesWithinAABB(EntityLivingBase.class, aabb,
-                e -> e != null && e.isEntityAlive() && !e.equals(entity));
+                e -> e != null && e.isEntityAlive() && aaaa0ggmc.morphext.faction.FactionEnmity.isValidTargetFor(entity, e));
 
         DamageSource src = entity instanceof EntityPlayer ?
                 DamageSource.causePlayerDamage((EntityPlayer) entity) :

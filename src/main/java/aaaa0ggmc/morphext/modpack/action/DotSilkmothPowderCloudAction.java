@@ -68,7 +68,7 @@ public class DotSilkmothPowderCloudAction implements IAction, ICooldownAction {
         double radius = 6.0D;
         AxisAlignedBB aabb = entity.getEntityBoundingBox().grow(radius, 3.0D, radius);
         List<EntityLivingBase> targets = world.getEntitiesWithinAABB(EntityLivingBase.class, aabb,
-                e -> e != null && e.isEntityAlive() && !e.equals(entity));
+                e -> e != null && e.isEntityAlive() && aaaa0ggmc.morphext.faction.FactionEnmity.isValidTargetFor(entity, e));
 
         for (EntityLivingBase target : targets) {
             target.addPotionEffect(new PotionEffect(MobEffects.BLINDNESS, 120, 0));

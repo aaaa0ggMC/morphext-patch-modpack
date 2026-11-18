@@ -72,7 +72,7 @@ public class BopWaspHiveVenomAction implements IAction, ICooldownAction {
 
         AxisAlignedBB search = entity.getEntityBoundingBox().grow(8.0D, 3.0D, 8.0D);
         List<EntityLivingBase> candidates = world.getEntitiesWithinAABB(EntityLivingBase.class, search,
-                e -> e != null && e.isEntityAlive() && !e.equals(entity));
+                e -> e != null && e.isEntityAlive() && aaaa0ggmc.morphext.faction.FactionEnmity.isValidTargetFor(entity, e));
         double bestDot = 0.5D;
         for (EntityLivingBase t : candidates) {
             Vec3d toTarget = new Vec3d(t.posX - entity.posX, 0, t.posZ - entity.posZ).normalize();
@@ -92,7 +92,7 @@ public class BopWaspHiveVenomAction implements IAction, ICooldownAction {
         AxisAlignedBB cloud = new AxisAlignedBB(cx - 3.5D, cy - 2.5D, cz - 3.5D,
                 cx + 3.5D, cy + 2.5D, cz + 3.5D);
         List<EntityLivingBase> victims = world.getEntitiesWithinAABB(EntityLivingBase.class, cloud,
-                e -> e != null && e.isEntityAlive() && !e.equals(entity));
+                e -> e != null && e.isEntityAlive() && aaaa0ggmc.morphext.faction.FactionEnmity.isValidTargetFor(entity, e));
         for (EntityLivingBase victim : victims) {
             victim.attackEntityFrom(src, 2.5F);
             victim.addPotionEffect(new PotionEffect(MobEffects.POISON, 80, 1));
